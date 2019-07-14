@@ -20,6 +20,9 @@ const dateFormatter= date => {
        
     }
 module.exports={dateFormatter};
+
+// The padStart() method pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start (left) of the current string.(2,0) => 2 is length
+
 // function dateFormatter(date) {
 //     const pad = number => number.toString().padStart(2, 0);
   

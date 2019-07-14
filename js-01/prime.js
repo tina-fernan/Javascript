@@ -1,4 +1,6 @@
 const isPrime = number => {
+    // 1 is neither prime nor compsite.
+    // 2 is divisible by itself and 1.
     for (let i = 2; i < number; i++) 
         if(number % i === 0){
 
